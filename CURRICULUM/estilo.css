@@ -1,0 +1,159 @@
+body
+{
+background-image:url(imagenes/symphony.png);
+margin: 10px auto;
+width:70%;
+font-family: "Roboto";
+}
+header{
+width:100%; /*Establecemos que el header abarque el 100% del documento */
+overflow:hidden; /*Eliminamos errores de float*/
+background-color: #ececec;
+margin-bottom:0px;
+padding: 0px;
+border-radius: 25px 25px 0px 0px; /*superior, derecho inferior, izquierdo*/
+border-style: none;
+}
+header>div>h1,h2
+{
+font-family: "Roboto";
+letter-spacing: 1px;
+text-transform: uppercase;
+font-weight:bold;
+text-align: center;
+margin: 20px 20px 0px 70px;
+}
+header>div>p
+{
+font-family: "Roboto";
+text-align: center;
+margin: auto;
+size: 14px;
+margin: 0px 20px 0px 70px;
+line-height: 1.5;
+}
+.divizq{
+float: left;
+width: 30%;
+margin-top: 0px;
+align-content: center;
+
+}
+.divder{
+float: right;
+width: 70%;
+margin-top: auto;
+text-align:center;
+align-content: center;
+
+}
+.imgizq
+{
+float:left;
+padding: 0px 0px 0px 0px; /*superior,, derecho, inferior, izquierdo*/
+width: 200px;
+height: 355px;
+margin-top:0px;
+}
+li
+{
+font-family: "Roboto";
+text-align: justify;
+margin: auto;
+size: 10px;
+line-height: 2;
+}
+.listaside
+{
+font-family: "Roboto";
+text-align: justify;
+margin: auto;
+size: 10px;
+line-height: 1;
+}
+section
+{
+float: right;
+width: 65%;
+text-align:justify;
+margin-top: 0px;
+background-color: #fff;
+}
+article{
+margin-bottom: 5px;
+padding: 10px;
+border-radius: 10px 10px 10px 10px;
+border-style: solid;
+border-width: 0px;
+background-color: #fff;
+}
+aside{
+float: left;
+width: 35%;
+text-align: justify;
+margin-top: 0px;
+background-color: #ececec;
+}
+blockquote
+{
+margin-bottom: 5px;
+padding: 10px;
+border-radius: 10px 10px 10px 10px;
+border-style: solid;
+border-width: 2px;
+border-color: #ececec;
+background-color:#ececec;
+}
+
+/*Solo esto esta diferente a lo de la profa*/
+.icon {
+    width: 15px;  /* Aumenta el tamaño del ícono */
+    height: 15px;
+    padding: 10px;  /* Espaciado interno más grande */
+    background-color: rgb(243, 241, 241);
+    border-radius: 100%;  /* Sigue siendo un círculo */
+    display: flex;  /* Asegura que el contenido esté centrado */
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;  /* Aumenta el espacio entre el icono y el texto */
+}
+
+/*Esto es la tarea*/
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espacio entre íconos */
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+.redes-sociales a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;  /* Tamaño uniforme del contenedor */
+    height: 15px;
+}
+.redes-sociales a img {
+    width: 40px;  /* Tamaño uniforme de los íconos */
+    height: 40px;
+    object-fit: contain; /* Asegura que la imagen se ajuste sin deformarse */
+    transition: transform 0.3s ease-in-out;
+}
+
+.redes-sociales a img:hover {
+    transform: scale(1.2); /* Efecto de zoom al pasar el mouse */
+}
+
+.contenedor
+{
+ padding: 10px 20px 10px 20px; /*Superior, derecho, inferior, izquierdo*/
+ background: rgba(255, 255, 255, 0.67);
+ border-radius: 2em; /*redondea el borde*/
+ box-shadow: 0px 5px 3px rgba(0,0,0, .4);
+}
+
+
+

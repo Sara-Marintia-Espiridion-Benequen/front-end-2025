@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   style="enable-background:new 0 0 512 512;"
+   xml:space="preserve"
+   sodipodi:docname="reloj.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs2" /><sodipodi:namedview
+   id="namedview2"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="1.5917969"
+   inkscape:cx="256"
+   inkscape:cy="256"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="g2"
+   style="fill:#ffffff">
+	<path
+   d="M256,23.3v23.3c57.9,0,110.1,23.4,148.1,61.3c37.9,38,61.3,90.2,61.3,148.1c0,57.9-23.4,110.1-61.3,148.1   c-38,37.9-90.2,61.3-148.1,61.3c-57.9,0-110.1-23.4-148.1-61.3C70,366.1,46.6,313.9,46.5,256c0-57.9,23.4-110.1,61.3-148.1   c38-37.9,90.2-61.3,148.1-61.3V23.3V0C114.6,0,0,114.6,0,256c0,141.4,114.6,256,256,256c141.4,0,256-114.6,256-256   C512,114.6,397.4,0,256,0V23.3z"
+   id="path1"
+   style="fill:#ffffff" />
+	<path
+   d="M232.7,116.4V256c0,8.8,5,16.9,12.9,20.8l93.1,46.5c11.5,5.7,25.5,1.1,31.2-10.4c5.7-11.5,1.1-25.5-10.4-31.2l-80.2-40.1   V116.4c0-12.9-10.4-23.3-23.3-23.3C243.1,93.1,232.7,103.5,232.7,116.4L232.7,116.4z"
+   id="path2"
+   style="fill:#ffffff" />
+</g>
+</svg>
