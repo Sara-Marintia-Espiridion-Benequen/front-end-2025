@@ -1,0 +1,57 @@
+/* Biografía */
+:root{
+    --oscuro:#07070A;
+    --blanco:#FEFCFB;
+    --purpura:#800080;
+    --grisOscuro:#808080; 
+    --titulos: "Big Shoulders Stencil", sans-serif;
+    --parrafos: "Roboto", serif;
+    /*--parrafo: "Nanum Myeongjo", serif;*/
+}
+/* Media query para pantallas grandes */
+@media (min-width: 768px) {
+    .contenido-biografia {
+        display: block; /* Cambia a una lista en lugar de una cuadrícula */
+    }
+    .artista {
+        max-width: 800px; /* Limita el ancho de cada sección */
+        margin: 0 auto 40px; /* Centra y añade espacio entre secciones */
+    }
+}
+.biografia {
+    padding: 5rem;
+    background-color: var(--purpura);
+}
+
+/* Contenedor de la biografía */
+.contenido-biografia {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos para cada artista */
+.artista {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el texto y la imagen */
+    margin-bottom: 40px; /* Espacio entre cada sección */
+    color: var(--blanco);
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+/* Estilos para el texto */
+.artista .texto {
+    flex: 1; /* Ocupa el espacio disponible */
+    padding-right: 20px; /* Espacio entre el texto y la imagen */
+}
+
+/* Estilos para la imagen */
+.artista .imagen {
+    flex: 0 0 150px; /* Ancho fijo para la imagen */
+    margin-left: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.artista img {
+    width: 14rem;
+    height: auto;
+    border-radius: 10px; /* Opcional: bordes redondeados */
+}

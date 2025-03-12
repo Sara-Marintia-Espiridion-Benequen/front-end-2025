@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbum 1</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/album1.css"> <!-- Estilos específicos para la página del álbum -->
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenido-navegacion">
+            <div class="logo">
+                <h2>Min Yoon-gi<span>AGUSTD</span></h2>
+            </div>
+            <nav class="navegacion ocultar">
+                <a href="index.html#inicio">Inicio</a>
+                <a href="index.html#galeria">Galería</a>
+                <a href="index.html#biografia">Biografía</a>
+                <a href="index.html#discografia">Discografía</a>
+                <a href="index.html#eventos">Eventos</a>
+            </nav>
+            <div class="hamburguesa">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección del Álbum -->
+    <section class="album">
+        <h2>Álbum 1</h2>
+        <div class="contenido-album contenedor">
+            <div class="portada">
+                <img src="img/album/album1.jpeg" alt="Álbum 1">
+            </div>
+            <div class="canciones">
+                <h3>Canciones</h3>
+                <ul>
+                    <li>
+                        <span>1. Canción 1</span>
+                        <audio controls>
+                            <source src="audio/cancion1.mp3" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </li>
+                    <li>
+                        <span>2. Canción 2</span>
+                        <audio controls>
+                            <source src="audio/cancion2.mp3" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </li>
+                    <li>
+                        <span>3. Canción 3</span>
+                        <audio controls>
+                            <source src="audio/cancion3.mp3" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </li>
+                    <li>
+                        <span>4. Canción 4</span>
+                        <audio controls>
+                            <source src="audio/cancion4.mp3" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="logo">
+            <h2>Min Yoon-gi<span>AGUSTD</span></h2>
+        </div>
+        <p>Todos los derechos reservados <span class="fecha"></span> &copy; Desarrollado</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

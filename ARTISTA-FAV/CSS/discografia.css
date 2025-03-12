@@ -1,0 +1,47 @@
+:root{
+    --oscuro:#07070A;
+    --blanco:#FEFCFB;
+    --purpura:#800080;
+    --grisOscuro:#808080; 
+    --titulos: "Big Shoulders Stencil", sans-serif;
+    --parrafos: "Roboto", serif;
+    /*--parrafo: "Nanum Myeongjo", serif;*/
+}
+/* Discografía */
+.discografia {
+    padding: 5rem;
+    background-color: var(--purpura); /* Usa la variable --purpura */
+    color: var(--blanco); /* Usa la variable --blanco */
+}
+
+.discografia h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.contenido-discografia {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.album {
+    text-align: center;
+}
+
+.album img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.album img:hover {
+    transform: scale(1.05);
+}
+
+.album h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}

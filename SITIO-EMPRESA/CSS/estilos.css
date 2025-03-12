@@ -4,7 +4,7 @@
     --azulClaro:#006FE6;
     --blanco:#FEFCFB;
     --titulos: "Josefin Sans", serif;
-    --parrafor:'Roboto', serif;
+    --parrafos:'Roboto', serif;
 }
 h1{
     font-family: var(--titulos);
@@ -33,7 +33,7 @@ h1,h2,h3{
 p,a{
     font-family: var(--parrafos);
 }
-
+/*Boton Cotizar*/
 .ocultar{
     display: none;
 }
