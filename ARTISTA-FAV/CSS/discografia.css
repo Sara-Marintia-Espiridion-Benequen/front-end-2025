@@ -10,7 +10,7 @@
 /* Discografía */
 .discografia {
     padding: 5rem;
-    background-color: var(--purpura); /* Usa la variable --purpura */
+    background-color: var(--oscuro); /* Usa la variable --oscuro */
     color: var(--blanco); /* Usa la variable --blanco */
 }
 
