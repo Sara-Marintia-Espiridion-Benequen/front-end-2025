@@ -1,0 +1,17 @@
+/* Estilos para las redes sociales */
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.red-social img {
+    width: 50px; /* Tamaño de los íconos */
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.red-social img:hover {
+    transform: scale(1.2); /* Efecto de escala al pasar el mouse */
+}
